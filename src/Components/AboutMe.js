@@ -19,7 +19,7 @@ const AboutMe = () => {
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <h3>UI/UX Designer &amp; Web Developer.</h3>
             <p className="font-italic">
-            Hard-working individual with proficiency in HTML, JavaScript, and CSS, as well as strong ability to communicate and work in a team effectively seeks to apply for the position of Intern Front-end Developer at P&G Inc.
+            Hard-working individual with proficiency in HTML, JavaScript, and CSS, as well as strong ability to communicate and work in a team effectively seeks to apply for the position of Intern Front-end Developer.
             </p>
             <div className="row">
               <div className="col-lg-6">
