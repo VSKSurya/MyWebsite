@@ -1,17 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
+
+//import Objective from './Components/Objective';
+import HeaderVSK from './Components/Header';
+import SelfImage from './Components/SelfImage';
+import Resume from './Components/Resume';
+
+import AboutMe from './Components/AboutMe';
+
+import Portfolio from './Components/Portfoli'
+
+import Contactus from './Components/contactus';
+
+import Footer from './Components/Footer';
+
+
+class App extends React.Component{
+
+    render()
+    {
+        return(
+            <div>
+                <HeaderVSK></HeaderVSK>
+          
+                <SelfImage></SelfImage>
+                <main id="main">
+                    <AboutMe></AboutMe>
+                    
+                    <Resume></Resume>
+
+                    <Portfolio></Portfolio>
+
+                    <Contactus></Contactus>
+
+                </main>
+                <Footer></Footer>
+            </div>
+        )
+    }
+}
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <App/>,
+    document.querySelector('#root')
+)
