@@ -6,8 +6,8 @@ const Page: React.FC = () => {
     { year: 'HTML5', value: 13 },
     { year: 'CSS', value: 10 },
     { year: 'Bootstrap', value: 5.5 },
-    { year: 'jQuery - UI Design', value: 1.0 },
-    { year: 'React js - UI Design', value: 0.6 }
+    { year: 'jQuery - UI', value: 1.0 },
+    { year: 'React js - UI', value: 0.6 }
   ];
 
   const config = {
