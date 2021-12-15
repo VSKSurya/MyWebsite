@@ -3,8 +3,9 @@ import { Line } from '@ant-design/charts';
 
 const Page: React.FC = () => {
   const data = [
-    { year: 'HTML5', value: 13 },
-    { year: 'CSS', value: 10 },
+    { year: 'Total Exp', value: 15 },
+    { year: 'HTML5', value: 14 },
+    { year: 'CSS', value: 14 },
     { year: 'Bootstrap', value: 5.5 },
     { year: 'jQuery - UI', value: 1.0 },
     { year: 'React js - UI', value: 0.6 }
@@ -12,7 +13,7 @@ const Page: React.FC = () => {
 
   const config = {
     data,
-    width: 500,
+    width: 550,
     height: 300,
     autoFit: false,
     xField: 'year',
