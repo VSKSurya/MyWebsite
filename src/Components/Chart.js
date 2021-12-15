@@ -3,14 +3,16 @@ import { Line } from '@ant-design/charts';
 
 const Page: React.FC = () => {
   const data = [
-    { year: '2000', value: 3 },
-    { year: '2004-2008 : TCS', value: 4.5 },
-    { year: '2008 - 2021 : Schoolnet India Limited', value: 13.5 }
+    { year: 'HTML5', value: 13 },
+    { year: 'CSS', value: 10 },
+    { year: 'Bootstrap', value: 5.5 },
+    { year: 'jQuery - UI Design', value: 1.0 },
+    { year: 'React js - UI Design', value: 0.6 }
   ];
 
   const config = {
     data,
-    width: 650,
+    width: 500,
     height: 300,
     autoFit: false,
     xField: 'year',
