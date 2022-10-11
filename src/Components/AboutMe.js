@@ -9,7 +9,7 @@ const AboutMe = () => {
 
         <div className="section-title">
           <h2>About</h2>
-          <p>Self-motivated IT professional with deep knowledge and proficiency in  HTML 5, CSS, jquery, Bootstrap and mobile responsive website development, as well as highly potent skills and ability in encoding virus-free and efficient code, seeks the position of Front-end Web Developer with B&G Technology Inc.</p>
+          <p>Self-motivated IT professional with deep knowledge and proficiency in  HTML 5, CSS, jquery, Bootstrap and mobile responsive website development, as well as highly potent skills and ability in encoding virus-free and efficient code, seeks the position of Front-end Web Developer with Schoolnet India Limited.</p>
         </div>
 
         <div className="row">
